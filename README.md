@@ -3,7 +3,7 @@
 * Author: Shih-Yao (Mike) Lin
 * Framework: PyTorch
 * Dataset: CIFAR-10
-* This repo is fixed the repo implementd by Haitong Li
+* This repo is heavily borrowed from the [repo](https://github.com/peterliht/knowledge-distillation-pytorch.git) implementd by Haitong Li and fix some bugs such that it can run on the latest PyTorch framework.
 
 
 ## Features
