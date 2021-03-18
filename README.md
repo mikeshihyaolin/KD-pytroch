@@ -1,5 +1,6 @@
 # knowledge-distillation-pytorch
-* Exploring knowledge distillation of DNNs for efficient hardware solutions. I fix some issues of the [repo](https://github.com/peterliht/knowledge-distillation-pytorch.git) such taht it can run on the latest PyTorch.
+* Exploring knowledge distillation of DNNs for efficient hardware solutions. I fix some issues of the [repo](https://github.com/peterliht/knowledge-distillation-pytorch.git) such taht it can run on the latest PyTorch. It can successfully run on my Ubuntu machine.
+* Date: 2021-03-17, 19:00
 * Framework: PyTorch
 * Dataset: CIFAR-10
 
