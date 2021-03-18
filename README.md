@@ -1,10 +1,7 @@
 # knowledge-distillation-pytorch
-* Exploring knowledge distillation of DNNs for efficient hardware solutions
-* Author: Shih-Yao (Mike) Lin
+* Exploring knowledge distillation of DNNs for efficient hardware solutions. I fix some issues of the [repo](https://github.com/peterliht/knowledge-distillation-pytorch.git) such taht it can run on the latest PyTorch.
 * Framework: PyTorch
 * Dataset: CIFAR-10
-* This repo is heavily borrowed from the [repo](https://github.com/peterliht/knowledge-distillation-pytorch.git) implemented by Haitong Li and fix some bugs such that it can run on the latest PyTorch framework.
-
 
 ## Features
 * A framework for exploring "shallow" and "deep" knowledge distillation (KD) experiments
@@ -34,7 +31,7 @@
 
 ## Key notes about usage for your experiments:
 
-* Download the zip file for pretrained teacher model checkpoints from this [Box folder](https://drive.google.com/file/d/1IlaKpLO2vg5Es_otYTFFSYzi2HjAGdx0/view?usp=sharing)
+* Download the zip file for pretrained teacher model checkpoints from this [Model folder](https://drive.google.com/file/d/1IlaKpLO2vg5Es_otYTFFSYzi2HjAGdx0/view?usp=sharing)
 * Simply move the unzipped subfolders into 'knowledge-distillation-pytorch/experiments/' (replacing the existing ones if necessary; follow the default path naming)
 * Call train.py to start training 5-layer CNN with ResNet-18's dark knowledge, or training ResNet-18 with state-of-the-art deeper models distilled
 * Use search_hyperparams.py for hypersearch
